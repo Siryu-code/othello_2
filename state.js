@@ -25,5 +25,5 @@ function name(p) {
 }
 
 function inside(y, x) {
-    return p >= 0 && y < N && x >= 0 && x < N
+    return y >= 0 && y < N && x >= 0 && x < N
 }

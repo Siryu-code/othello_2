@@ -26,7 +26,7 @@ function pickHard(moves) {
     return pickMedium(moves);
 }
 
-function pickMoves(moves) {
+function pickMove(moves) {
     if (moves.length === 0) return null;
     if (level === "easy") return pickEasy(moves);
     if (level === "medium") return pickMedium(moves);
